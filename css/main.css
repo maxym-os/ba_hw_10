@@ -6,7 +6,7 @@ body {
 main {
     width: 800px;
     height: 800px;
-    border: 20px solid #6a1c0f;
+    border: 20px solid #744126;
     margin: 0 auto;
     position: relative;
     padding: 2px;
@@ -19,6 +19,7 @@ section {
 div {
     width: 100px;
     height: 100px;
+    display: block;
 }
 
 .mo-column_1 :nth-child(odd),
@@ -40,7 +41,7 @@ div {
 .mo-column_6 :nth-child(odd),
 .mo-column_7 :nth-child(even),
 .mo-column_8 :nth-child(odd) {
-    background-color: #6a1c0f;
+    background-color: #744126;
 }
 
 .mo-column_2{
@@ -69,5 +70,10 @@ div {
 
 .mo-column_8{
     left: 700px;
+}
+
+img {
+    width: 80px;
+    margin: 10px;
 }
 
