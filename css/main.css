@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 800px;
+    height: 800px;
+    border: 20px solid #6a1c0f;
+    margin: 0 auto;
+    position: relative;
+    padding: 2px;
+}
+
+section {
+    position: absolute;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.mo-column_1 :nth-child(odd),
+.mo-column_2 :nth-child(evev),
+.mo-column_3 :nth-child(odd),
+.mo-column_4 :nth-child(evev),
+.mo-column_5 :nth-child(odd),
+.mo-column_6 :nth-child(evev),
+.mo-column_7 :nth-child(odd),
+.mo-column_8 :nth-child(evev) {
+    background-color: #edca94;
+}
+
+.mo-column_1 :nth-child(even),
+.mo-column_2 :nth-child(odd),
+.mo-column_3 :nth-child(even),
+.mo-column_4 :nth-child(odd),
+.mo-column_5 :nth-child(even),
+.mo-column_6 :nth-child(odd),
+.mo-column_7 :nth-child(even),
+.mo-column_8 :nth-child(odd) {
+    background-color: #6a1c0f;
+}
+
+.mo-column_2{
+    left: 100px;
+}
+
+.mo-column_3{
+    left: 200px;
+}
+
+.mo-column_4{
+    left: 300px;
+}
+
+.mo-column_5{
+    left: 400px;
+}
+
+.mo-column_6{
+    left: 500px;
+}
+
+.mo-column_7{
+    left: 600px;
+}
+
+.mo-column_8{
+    left: 700px;
+}
+
